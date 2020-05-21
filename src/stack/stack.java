@@ -35,6 +35,6 @@ public class stack {
     }
     @Override
     public String toString (){
-        return theStack.toString();
+        return stackdata.toString();
     }
 }
