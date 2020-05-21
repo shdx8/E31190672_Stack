@@ -33,4 +33,8 @@ public class stack {
     public int size(){//implementasi method size
         return stackdata.size();//untuk mengetahui ada berapa data pada stackdata
     }
+    @Override
+    public String toString (){
+        return theStack.toString();
+    }
 }
